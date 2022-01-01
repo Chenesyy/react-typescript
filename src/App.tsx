@@ -1,12 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { TextField } from './TextField';
+import Header from './components/Header/Header';
 
-function App(): React.FC = () => {
-  return <div>
-    <TextField text='hello' person={{firstName: 'Zesty', lastName: 'Nesty'}} />
-  </div>;
+const App: React.FC = () => {
+  return (
+    <div className='App'>
+      <Header />
+    </div>
+  );
 };
 
 export default App;
