@@ -4,8 +4,8 @@ import './Header.css';
 
 const Header: React.FC = () => {
     return (
-        <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div id="header">
+            <nav className="navbar navbar-expand-lg navbar-dark">
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -32,7 +32,6 @@ const Header: React.FC = () => {
                     </ul>
                 </div>
             </nav>
-            <Landing />
         </div>
     );
 };

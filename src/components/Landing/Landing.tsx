@@ -1,44 +1,40 @@
 import React from 'react';
 import landingBG from '../../images/landing_bg.jpg';
 import './Landing.css';
+import Typewriter from 'typewriter-effect';
+import About from '../About/About';
 
 const Landing: React.FC = () => {
     return (
-        <div>
-            <h1 className="intro">Hi there! My name is Chester Sy and welcome to my portfolio!</h1>
-            <img className="bg" src={landingBG} alt="Landing Background" />
-        </div>
+        <section id="landing">
+            <h1 className="greetings">
+                Hey there! I'm Chester Sy
+            </h1>
+            <h3 className="info">
+                <Typewriter
+                    options={{
+                        strings: [
+                            'Back-end Software Engineer', 
+                            'an Aspiring Full Stack Software Engineer',
+                            'BS Computer Science Graduate',
+                        ],
+                        autoStart: true,
+                        loop: true,
+                        delay: 80,
+                    }}
+                />
+            </h3>
+            <div className="contact">
+                <button className="button-28">Contact Me</button>
+            </div>
+        </section>
     );
 };
 
 export default Landing;
 
 /**
- *         <div className="bg">
-            <h1>Hi there! My name is Chester Sy and welcome to my portfolio!</h1>
-            <img src={landingBG} alt="Landing Background" />
-        </div>
-
-                <div>
-            <img src={landingBG} alt="" />
-            <h2>A Movie in the Park:<br />Kung Fu Panda</h2>
-        </div>
-
-        <div className="HeroContainer">
-            <div className="HeroBg">
-                <div className="VideoBg">
-                    <img src={landingBG} alt="Landing Background" />
-                </div>
-            </div>
-            <div className="HeroContent">
-                <div className="HeroH1">
-                    Hi there! My name is Chester Sy and welcome to my portfolio!
-                </div>
-                <div className="HeroP">
-                    Sample Paragraph
-                </div>
-            </div>
-        </div>
+ *               <img className="img-fluid" src={landingBG} alt="Landing Background" />
  */
 
 //    max-width: 100%;
