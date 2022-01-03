@@ -1,0 +1,18 @@
+.Routes section {
+    background-size: cover;
+    height:50vh;
+    display: table;
+}
+
+.header {
+    display: table-cell;
+    margin-left: auto;
+}
+
+.landing {
+    display: table-cell;
+}
+
+.about {
+    display: table-cell;
+}

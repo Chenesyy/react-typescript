@@ -4,19 +4,12 @@ import './App.css';
 import Header from './components/Header/Header';
 import Landing from './components/Landing/Landing';
 import About from './components/About/About';
+import Routes from './container/Routes';
 
 const App: React.FC = () => {
   return (
     <div className='App'>
-      <section className="header">
-        <Header />
-      </section>
-      <section className="landing">
-        <Landing />
-      </section>
-      <section className="about">
-        <About />
-      </section>
+        <Routes />
     </div>
   );
 };
