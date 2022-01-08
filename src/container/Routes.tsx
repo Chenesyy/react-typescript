@@ -13,7 +13,7 @@ const Routes: React.FC = () => {
                 options={{
                 background: {
                     color: {
-                    value: "#03041c",
+                        value: "#03041c",
                     },
                 },
                 fpsLimit: 60,
