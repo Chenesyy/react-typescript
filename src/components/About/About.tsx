@@ -4,7 +4,7 @@ import profilePic from '../../assets/Pic.jpg';
 
 const About: React.FC = () => {
     return (
-        <section id="about">
+        <section id='about'>
             <img className='profile' src={profilePic} alt='Profile Picture' />
             <div className='title'>
                 <span className='letter'>A</span>bout <span className='letter'>M</span>e
