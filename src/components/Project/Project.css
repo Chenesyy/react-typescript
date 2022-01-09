@@ -1,0 +1,49 @@
+#project {
+    padding-top: 2rem;
+}
+
+.projectTitle {
+    position: absolute;
+    left: 15%;
+    right: 0;
+    font-size: 32px;
+    color: #fff;
+}
+
+.letter {
+    color: #e1ad01;
+}
+
+.projectCard {
+    position: absolute;
+    margin-top: 5rem;
+    left: 15%;
+}
+
+.projPic {
+    width: 280px;
+    height: 200px;
+    border-radius: 15px 15px;
+}
+
+.projCard {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 2px 4px 0 #ccc;
+    transition: 0.3s;
+    border-radius: 15px;
+    display: inline-block;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+}
+  
+/* On mouse-over, add a deeper shadow */
+.projCard:hover {
+    box-shadow: 0 8px 16px 0 #ccc;
+}
+  
+/* Add some padding inside the card container */
+.projContainer {
+    padding: 2px 16px;
+    background-color: #fff;
+    border-radius: 0px 0px 15px 15px;
+}
