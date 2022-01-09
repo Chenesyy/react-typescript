@@ -3,6 +3,7 @@ import Particles from "react-tsparticles";
 import Header from '../components/Header/Header';
 import Landing from '../components/Landing/Landing';
 import About from '../components/About/About';
+import Project from '../components/Project/Project';
 import './Routes.css';
 
 const Routes: React.FC = () => {
@@ -98,6 +99,9 @@ const Routes: React.FC = () => {
                 </section>
                 <section className="about">
                     <About />
+                </section>
+                <section className="project">
+                    <Project />
                 </section>
             </div>
         </>

@@ -19,7 +19,7 @@ const Header: React.FC = () => {
                             <Link className="nav-link" to="about" smooth={true} duration={100}>About</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Projects</a>
+                            <Link className="nav-link" to="project" smooth={true} duration={100}>Projects</Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Experience</a>
