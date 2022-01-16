@@ -4,6 +4,7 @@ import Header from '../components/Header/Header';
 import Landing from '../components/Landing/Landing';
 import About from '../components/About/About';
 import Project from '../components/Project/Project';
+import Experience from '../components/Experience/Experience';
 import './Routes.css';
 
 const Routes: React.FC = () => {
@@ -102,6 +103,9 @@ const Routes: React.FC = () => {
                 </section>
                 <section className="project">
                     <Project />
+                </section>
+                <section className="experience">
+                    <Experience />
                 </section>
             </div>
         </>
