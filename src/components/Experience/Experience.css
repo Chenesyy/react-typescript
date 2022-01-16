@@ -1,0 +1,45 @@
+#expi {
+    padding-top: 2rem;
+    margin-bottom: 10rem;
+}
+
+.expiTitle {
+    position: absolute;
+    left: 15%;
+    right: 0;
+    font-size: 32px;
+    color: #fff;
+}
+
+.expiList {
+    margin-top: 5rem;
+}
+
+.expiContainer {
+    position: relative;
+    width: 910px;
+    border: 2px solid #e1ad01a2;
+    padding: 10px;
+    margin-top: 1.5rem;
+    left: 22.5%;
+}
+
+.expiPos {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.925);
+}
+
+.expiYears {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.expiOrg {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.expiDetails {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.76);
+}
