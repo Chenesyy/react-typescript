@@ -11,7 +11,7 @@ const Project: React.FC = () => {
             <div className='projectCard'>
                 <div className="projCard">
                     <img className='projPic' src={landingBG} alt="Avatar" />
-                    <h3 className='trial'>Trial</h3>
+                    <h3 className='trial'>Placeholder</h3>
                     {/* <div className="projContainer">
                         <h4><b>John Doe</b></h4>
                         <p>Architect & Engineer</p>
