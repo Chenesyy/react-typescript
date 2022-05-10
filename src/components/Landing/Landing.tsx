@@ -3,6 +3,7 @@ import landingBG from '../../images/landing_bg.jpg';
 import './Landing.css';
 import Typewriter from 'typewriter-effect';
 import About from '../About/About';
+import ContactMeBtn from '../../common/Button';
 
 const Landing: React.FC = () => {
     return (
@@ -24,8 +25,8 @@ const Landing: React.FC = () => {
                     }}
                 />
             </h3>
-            <div className="contact">
-                <button className="button-28">Contact Me</button>
+            <div className='contact'>
+                <ContactMeBtn />
             </div>
         </section>
     );
@@ -41,3 +42,9 @@ export default Landing;
 //height: auto;
 //position: relative;
 //z-index: 1;
+
+/**
+ * <div className="contact">
+                <button className="button-28">Contact Me</button>
+            </div>
+ */
