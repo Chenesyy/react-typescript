@@ -12,8 +12,7 @@ const About: React.FC = () => {
             <div className='aboutMe'>
                 <p className='summary'>
                     Hi! My name is Chester Sy and I am a Software Engineer based in the 
-                    Philippines. I graduated from the Pontifical and Royal, Catholic 
-                    University of the Philippines, University of Santo Tomas, with a degree 
+                    Philippines. I graduated from the University of Santo Tomas, with a degree 
                     in BS Computer Science. I am determined and highly driven to take 
                     challenges and diligent in completing assigned tasks. I have significant 
                     interests in software development, machine learning, and data science.
